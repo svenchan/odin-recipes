@@ -24,12 +24,14 @@ nav {
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 nav ul {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    padding: 0;
 }
 
 nav ul li {
@@ -38,17 +40,20 @@ nav ul li {
     font-family: 'Lucida Sans', Arial, sans-serif; 
     font-size: 16px; 
     line-height: 26px; 
-    text-indent: 30px; 
-    margin: 0; }
+    }
 
 a {
     text-decoration: none;
     color: black;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 a:hover { 
     color: #ff4411;
     }
+
+/* The start of main */
 
 h1 {
     color: #ff4411; 
@@ -63,9 +68,10 @@ img {
 }
 
 .main {
-    width: 90%;
-    margin-left: auto;
+    width: 95%;
+    margin-left: 2.4%;
     margin-right: auto;
+    
     border-top: 1px solid #adb7bd;
     flex-wrap: wrap;
     justify-content: space-between;
