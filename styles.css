@@ -68,3 +68,16 @@ img {
     margin-right: auto;
     border-top: 1px solid #adb7bd;
 }
+
+p { 
+    font-family: 'Inder', sans-serif; line-height: 28px; 
+    margin-bottom: 15px; 
+    color: #666; 
+}
+
+h2 {
+    color: #ff4411; 
+    font-size: 30px; 
+    font-family: 'Signika', sans-serif; 
+    padding-bottom: 10px; 
+}
