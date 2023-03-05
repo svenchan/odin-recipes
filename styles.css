@@ -67,12 +67,17 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-top: 1px solid #adb7bd;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: left;
 }
 
 p { 
     font-family: 'Inder', sans-serif; line-height: 28px; 
     margin-bottom: 15px; 
+    margin-top: 5px;
     color: #666; 
+    background-color: white;
 }
 
 h2 {
@@ -80,4 +85,34 @@ h2 {
     font-size: 30px; 
     font-family: 'Signika', sans-serif; 
     padding-bottom: 10px; 
+}
+
+.introduction {
+    width: 300px;
+    padding-left: 40px;
+}
+
+#recipe-h1 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.recipe-card {
+    width: 400px;
+}
+
+#pasta-card {
+    width: 70%;
+    display: flex;
+}
+
+#gyoza-card {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#gyoza-card-text-div {
+    padding: 0px 40px;
 }
