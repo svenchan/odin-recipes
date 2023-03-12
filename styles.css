@@ -15,7 +15,7 @@
 
     .title-container {
         border-bottom: 1px solid black;
-        height: 20vh;
+        height: 15vh;
         display: flex;
         align-items: center;
     }
@@ -60,16 +60,16 @@
     }
 
     p { 
-        font-family: 'Inder', sans-serif; line-height: 1rem; 
-        margin-bottom: 15px; 
-        margin-top: 5px;
-        color: #666; 
-        background-color: white;
+        color: #383d40; 
+        font-family: 'Lucida Sans', Arial, sans-serif; 
+        font-size: 14px; 
+        line-height: 26px; 
+        margin: 0; 
     }
 
     h2 {
         color: #111; 
-        font-size: 1.8rem; 
+        font-size: 60px; 
         font-family: 'Signika', sans-serif; 
         padding-bottom: 0;
     }
