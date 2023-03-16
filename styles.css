@@ -60,7 +60,7 @@
         margin-left: 0;
     }
 
-    p { 
+    p, ul li { 
         font-family: 'Inder', sans-serif; 
         font-size: 1.2rem;
         line-height: 28px; 
